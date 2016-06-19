@@ -12,6 +12,6 @@
 #define FAKEAPI_H_
 
 extern void FAPI_function0(void);
-extner void FAPI_function1(void);
+extern void FAPI_function1(void);
 
 #endif /* FAKELIB_FAKEAPI_H_ */
