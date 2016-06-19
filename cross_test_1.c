@@ -21,7 +21,8 @@
 void sigHandler(int signal)
 {
 	printf("\n>> Kill signal detected, exiting program.\n\n");
-	FAPI_function0();
+	FAPI_function0();
+	FAPI_function1();
 
 	exit(0);
 }
